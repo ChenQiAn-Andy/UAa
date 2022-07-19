@@ -1,4 +1,4 @@
 ﻿using UVa_OJ;
 
-IAlgorithm algo = new UVa1586( );
+IAlgorithm algo = new UVa1225( );
 algo.Exec( );
