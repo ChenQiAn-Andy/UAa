@@ -29,6 +29,7 @@ namespace UVa_OJ
             NEXT:
                 time++;
             }
+        END:
             Console.WriteLine( time );
         }
     }
