@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UAa
+namespace UVa_OJ
 {
     internal class UVa1584 : IAlgorithm
     {
