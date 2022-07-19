@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UAa
+namespace UVa_OJ
 {
-    internal class UAa340:IAlgorithm
+    internal class UVa340:IAlgorithm
     {
         public void Exec( )
         {
