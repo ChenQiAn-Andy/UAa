@@ -1,5 +1,4 @@
-﻿
-using UAa;
+﻿using UAa;
 
-IAlgorithm algo = new UAa340( );
+IAlgorithm algo = new UVa1584( );
 algo.Exec( );
