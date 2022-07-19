@@ -24,11 +24,13 @@ namespace UVa_OJ
                             goto NEXT;
                         }
                     }
+                    goto END;
                 }
                 break;
             NEXT:
                 time++;
             }
+        END:
             Console.WriteLine( time );
         }
     }
