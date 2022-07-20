@@ -36,7 +36,7 @@ namespace UVa_OJ
                 }
                 return;
             }
-
+            
             if ( n == 2 )
             {
                 int w = 0, h = 0, s = 0;
@@ -69,8 +69,8 @@ namespace UVa_OJ
                 Console.WriteLine( "It's a cuboid." );
                 return;
             }
-
-        ERROR:
+            
+            ERROR:
             Console.WriteLine( "Invalid." );
         }
     }
