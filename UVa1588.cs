@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace UVa_OJ
 {
-    internal class UVa11809 : IAlgorithm
+    internal class UVa1588 : IAlgorithm
     {
         private int Traverse( List<int> a , List<int> b )
         {
-            int res = 0, n1 = a.Count, n2 = b.Count;
+            int n1 = a.Count, n2 = b.Count;
             for ( int offset = 0 ; offset < n2 ; ++offset )
             {
                 for ( int i = 0 ; i < n1 ; ++i )
