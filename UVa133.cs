@@ -12,9 +12,18 @@ namespace UVa_OJ
 
         private void Loop( int count , ref int index , int stepSize )
         {
+            return 0 == queue.Count( e => e == 1 );
+        }
+
+        private bool Loop( int count , ref int index , int stepSize )
+        {
             int c = count;
             while ( 0 < c )
             {
+                if ( Over( ) )
+                {
+                    return true;
+                }
                 int i = ( index + stepSize + queue.Length ) % queue.Length;
                 if ( queue[ i ] == 1 )
                 {
@@ -22,6 +31,7 @@ namespace UVa_OJ
                 }
                 index = i;
             }
+            return false;
         }
 
         public void Exec( )
@@ -32,7 +42,7 @@ namespace UVa_OJ
 
             int a = -1, b = n, c = n;
             while ( 0 < c )
-            {
+                {
                 Loop( k , ref a , 1 );
                 Loop( m , ref b , -1 );
 
