@@ -32,7 +32,7 @@ namespace UVa_OJ
 
             int a = -1, b = n, c = n;
             while ( 0 < c )
-            {
+                {
                 Loop( k , ref a , 1 );
                 Loop( m , ref b , -1 );
 
